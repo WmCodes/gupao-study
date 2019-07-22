@@ -12,7 +12,7 @@ public class RegisterMap {
 
     private RegisterMap(){}
 
-    private static Map<String,Object> register = new HashMap<>();
+    private static Map<String,Object> register = new HashMap<String, Object>();
 
     public static RegisterMap getInstance(String name){
         if (name ==null){
